@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class LeapYearCalculator {
 
-   /* Define your method here */
    public static boolean isLeapYear(int userYear) {
       boolean leapYearTrue = false;
       if ((userYear % 4 == 0) && (userYear % 100 != 0)) {
@@ -15,7 +14,6 @@ public class LeapYearCalculator {
    }
 
    public static void main(String[] args) {
-      /* Type your code here. */
       Scanner scnr = new Scanner(System.in);
       int inputYear = scnr.nextInt();
       boolean isLeap = false;
